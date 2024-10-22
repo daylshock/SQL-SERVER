@@ -17,7 +17,7 @@ CREATE PROCEDURE [dbo].[getCountBarbersCurPosition]
 AS
 BEGIN
 	SET NOCOUNT ON;
-	SELECT COUNT(*) FROM dbo.Barbers WHERE Position = 'синьор-барберо' AND Position = 'джуниор-барбер' 
+	SELECT COUNT(*) FROM dbo.Barbers WHERE Position = 'СЃРёРЅСЊРѕСЂ-Р±Р°СЂР±РµСЂРѕ' AND Position = 'РґР¶СѓРЅРёРѕСЂ-Р±Р°СЂР±РµСЂ' 
 END
 GO
 
