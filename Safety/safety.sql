@@ -98,7 +98,7 @@ GRANT db_owner TO Марк
 CREATE ROLE product_information
 GRANT SELECT TO product_information
 GRANT product_information TO Ирина
-DENY INSERT TO Ирина;
+DENY INSERT TO Ирина
 GRANT db_backupoperator TO Марат
 GRANT db_datawriter TO Олег
 GO
