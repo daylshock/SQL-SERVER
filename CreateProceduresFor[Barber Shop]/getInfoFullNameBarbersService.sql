@@ -17,7 +17,7 @@ CREATE PROCEDURE [dbo].[getInfoFullNameBarbersService]
 AS
 BEGIN
 	SET NOCOUNT ON;
-	SELECT * FROM dbo.Barbers WHERE [Service] = ' бритья бороды'
+	SELECT * FROM dbo.Barbers WHERE [Service] = ' Р±СЂРёС‚СЊСЏ Р±РѕСЂРѕРґС‹'
 END
 GO
 
