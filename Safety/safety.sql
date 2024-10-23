@@ -1,73 +1,73 @@
 USE [master]
 GO
---Создание пользователей
+--РЎРѕР·РґР°РЅРёРµ РїРѕР»СЊР·РѕРІР°С‚РµР»РµР№
 /* For security reasons the login is created disabled and with a random password. */
-/****** Object:  Login [ Борис]    Script Date: 23.10.2024 14:19:26 ******/
-CREATE LOGIN [Борис] WITH PASSWORD=N'Dfv6rZs1xODCekz1VsypaITl7G51w4o/prtuXgEUxK8=', DEFAULT_DATABASE=[master], DEFAULT_LANGUAGE=[русский], CHECK_EXPIRATION=ON, CHECK_POLICY=ON
+/****** Object:  Login [ Р‘РѕСЂРёСЃ]    Script Date: 23.10.2024 14:19:26 ******/
+CREATE LOGIN [Р‘РѕСЂРёСЃ] WITH PASSWORD=N'Dfv6rZs1xODCekz1VsypaITl7G51w4o/prtuXgEUxK8=', DEFAULT_DATABASE=[master], DEFAULT_LANGUAGE=[СЂСѓСЃСЃРєРёР№], CHECK_EXPIRATION=ON, CHECK_POLICY=ON
 GO
-ALTER LOGIN [ Борис] DISABLE
+ALTER LOGIN [ Р‘РѕСЂРёСЃ] DISABLE
 GO
-ALTER SERVER ROLE [sysadmin] ADD MEMBER [ Борис]
+ALTER SERVER ROLE [sysadmin] ADD MEMBER [ Р‘РѕСЂРёСЃ]
 USE [master]
 GO
 
 /* For security reasons the login is created disabled and with a random password. */
-/****** Object:  Login [Александр]    Script Date: 23.10.2024 14:19:49 ******/
-CREATE LOGIN [Александр] WITH PASSWORD=N'hogF1yLP0alua+4IWRgX3xVZQmoPPVLUbnBS1jOWIW0=', DEFAULT_DATABASE=[master], DEFAULT_LANGUAGE=[русский], CHECK_EXPIRATION=ON, CHECK_POLICY=ON
+/****** Object:  Login [РђР»РµРєСЃР°РЅРґСЂ]    Script Date: 23.10.2024 14:19:49 ******/
+CREATE LOGIN [РђР»РµРєСЃР°РЅРґСЂ] WITH PASSWORD=N'hogF1yLP0alua+4IWRgX3xVZQmoPPVLUbnBS1jOWIW0=', DEFAULT_DATABASE=[master], DEFAULT_LANGUAGE=[СЂСѓСЃСЃРєРёР№], CHECK_EXPIRATION=ON, CHECK_POLICY=ON
 GO
-ALTER LOGIN [Александр] DISABLE
+ALTER LOGIN [РђР»РµРєСЃР°РЅРґСЂ] DISABLE
 GO
-ALTER SERVER ROLE [sysadmin] ADD MEMBER [Александр]
+ALTER SERVER ROLE [sysadmin] ADD MEMBER [РђР»РµРєСЃР°РЅРґСЂ]
 USE [master]
 GO
 
 /* For security reasons the login is created disabled and with a random password. */
-/****** Object:  Login [Алексей]    Script Date: 23.10.2024 14:20:13 ******/
-CREATE LOGIN [Алексей] WITH PASSWORD=N'C+wzhTWlVhiBoB/7NPmvM+TUrlafk4kIRNe5Wd+FW1c=', DEFAULT_DATABASE=[master], DEFAULT_LANGUAGE=[русский], CHECK_EXPIRATION=ON, CHECK_POLICY=ON
+/****** Object:  Login [РђР»РµРєСЃРµР№]    Script Date: 23.10.2024 14:20:13 ******/
+CREATE LOGIN [РђР»РµРєСЃРµР№] WITH PASSWORD=N'C+wzhTWlVhiBoB/7NPmvM+TUrlafk4kIRNe5Wd+FW1c=', DEFAULT_DATABASE=[master], DEFAULT_LANGUAGE=[СЂСѓСЃСЃРєРёР№], CHECK_EXPIRATION=ON, CHECK_POLICY=ON
 GO
-ALTER LOGIN [Алексей] DISABLE
+ALTER LOGIN [РђР»РµРєСЃРµР№] DISABLE
 GO
-ALTER SERVER ROLE [sysadmin] ADD MEMBER [Алексей]
+ALTER SERVER ROLE [sysadmin] ADD MEMBER [РђР»РµРєСЃРµР№]
 USE [master]
 GO
 
 /* For security reasons the login is created disabled and with a random password. */
-/****** Object:  Login [Марк]    Script Date: 23.10.2024 14:20:36 ******/
-CREATE LOGIN [Марк] WITH PASSWORD=N'yTuSr/NC1WFpwYAe1Fgq0tTLwkcsdmzhuXPoOmoEJtA=', DEFAULT_DATABASE=[Barber Shop], DEFAULT_LANGUAGE=[русский], CHECK_EXPIRATION=ON, CHECK_POLICY=ON
+/****** Object:  Login [РњР°СЂРє]    Script Date: 23.10.2024 14:20:36 ******/
+CREATE LOGIN [РњР°СЂРє] WITH PASSWORD=N'yTuSr/NC1WFpwYAe1Fgq0tTLwkcsdmzhuXPoOmoEJtA=', DEFAULT_DATABASE=[Barber Shop], DEFAULT_LANGUAGE=[СЂСѓСЃСЃРєРёР№], CHECK_EXPIRATION=ON, CHECK_POLICY=ON
 GO
-ALTER LOGIN [Марк] DISABLE
+ALTER LOGIN [РњР°СЂРє] DISABLE
 GO
-ALTER SERVER ROLE [sysadmin] ADD MEMBER [Марк]
+ALTER SERVER ROLE [sysadmin] ADD MEMBER [РњР°СЂРє]
 GO
-ALTER SERVER ROLE [##MS_DatabaseConnector##] ADD MEMBER [Марк]
+ALTER SERVER ROLE [##MS_DatabaseConnector##] ADD MEMBER [РњР°СЂРє]
 USE [master]
 GO
 
 /* For security reasons the login is created disabled and with a random password. */
-/****** Object:  Login [Ольга]    Script Date: 23.10.2024 14:21:04 ******/
-CREATE LOGIN [Ольга] WITH PASSWORD=N'VZuFcaWxzEHKtuvp1zg9IovNXcaevcB7ZFtbZ/cZoyw=', DEFAULT_DATABASE=[master], DEFAULT_LANGUAGE=[русский], CHECK_EXPIRATION=ON, CHECK_POLICY=ON
+/****** Object:  Login [РћР»СЊРіР°]    Script Date: 23.10.2024 14:21:04 ******/
+CREATE LOGIN [РћР»СЊРіР°] WITH PASSWORD=N'VZuFcaWxzEHKtuvp1zg9IovNXcaevcB7ZFtbZ/cZoyw=', DEFAULT_DATABASE=[master], DEFAULT_LANGUAGE=[СЂСѓСЃСЃРєРёР№], CHECK_EXPIRATION=ON, CHECK_POLICY=ON
 GO
-ALTER LOGIN [Ольга] DISABLE
+ALTER LOGIN [РћР»СЊРіР°] DISABLE
 GO
-ALTER SERVER ROLE [sysadmin] ADD MEMBER [Ольга]
+ALTER SERVER ROLE [sysadmin] ADD MEMBER [РћР»СЊРіР°]
 USE [master]
 GO
 
 /* For security reasons the login is created disabled and with a random password. */
-/****** Object:  Login [Ирина]    Script Date: 23.10.2024 14:21:21 ******/
-CREATE LOGIN [Ирина] WITH PASSWORD=N'6u46iLwUDrbwSSz6s7M7CgYjhD7WQ6I6J69Maf74mlY=', DEFAULT_DATABASE=[master], DEFAULT_LANGUAGE=[русский], CHECK_EXPIRATION=ON, CHECK_POLICY=ON
+/****** Object:  Login [РСЂРёРЅР°]    Script Date: 23.10.2024 14:21:21 ******/
+CREATE LOGIN [РСЂРёРЅР°] WITH PASSWORD=N'6u46iLwUDrbwSSz6s7M7CgYjhD7WQ6I6J69Maf74mlY=', DEFAULT_DATABASE=[master], DEFAULT_LANGUAGE=[СЂСѓСЃСЃРєРёР№], CHECK_EXPIRATION=ON, CHECK_POLICY=ON
 GO
-ALTER LOGIN [Ирина] DISABLE
+ALTER LOGIN [РСЂРёРЅР°] DISABLE
 GO
-ALTER SERVER ROLE [dbcreator] ADD MEMBER [Ирина]
+ALTER SERVER ROLE [dbcreator] ADD MEMBER [РСЂРёРЅР°]
 
 GO
---1. Показать список серверных ролей:
+--1. РџРѕРєР°Р·Р°С‚СЊ СЃРїРёСЃРѕРє СЃРµСЂРІРµСЂРЅС‹С… СЂРѕР»РµР№:
 SELECT name
 FROM sys.server_principals
 WHERE type = 'R' AND is_fixed_role = 1;
 GO
---2. Показать разрешения серверных ролей:
+--2. РџРѕРєР°Р·Р°С‚СЊ СЂР°Р·СЂРµС€РµРЅРёСЏ СЃРµСЂРІРµСЂРЅС‹С… СЂРѕР»РµР№:
 SELECT DP1.name AS DatabaseRoleName,   
    DP2.name AS DatabaseUserName,   
    DS.name AS SchemaName,  
@@ -82,15 +82,15 @@ FROM sys.database_role_members AS DRM
 WHERE DP1.type = 'R' AND DP1.is_fixed_role = 0  
 ORDER BY DP1.name;
 GO
---3. Показать членов серверной роли sysadmin:
+--3. РџРѕРєР°Р·Р°С‚СЊ С‡Р»РµРЅРѕРІ СЃРµСЂРІРµСЂРЅРѕР№ СЂРѕР»Рё sysadmin:
 EXEC sp_helpsrvrolemember 'sysadmin';
 GO
---4. Показать членов серверной роли dbcreator:
+--4. РџРѕРєР°Р·Р°С‚СЊ С‡Р»РµРЅРѕРІ СЃРµСЂРІРµСЂРЅРѕР№ СЂРѕР»Рё dbcreator:
 GO
 EXEC sp_helpsrvrolemember 'dbcreator';
 GO
---5. Проверить является ли пользователь с логином Марк членом серверной роли sysadmin SQL server:
+--5. РџСЂРѕРІРµСЂРёС‚СЊ СЏРІР»СЏРµС‚СЃСЏ Р»Рё РїРѕР»СЊР·РѕРІР°С‚РµР»СЊ СЃ Р»РѕРіРёРЅРѕРј РњР°СЂРє С‡Р»РµРЅРѕРј СЃРµСЂРІРµСЂРЅРѕР№ СЂРѕР»Рё sysadmin SQL server:
 SELECT IS_SRVROLEMEMBER('sysadmin', 'Mark');
 GO
---задание 3
+--Р·Р°РґР°РЅРёРµ 3
 -
